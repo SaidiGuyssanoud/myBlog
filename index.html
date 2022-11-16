@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- pour supporter des vieilles versions de navigateurs-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- pour gérer l'affichage notamment mobile-->
     <link rel="stylesheet" href="style.css"> 
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -13,40 +13,63 @@
     <title>Document</title><!-- utile pour le SEO-->
 </head>
 <body>
-    <div class="container">
         <header>
             <span id="logo">
-                <i class="material-icons" id="icon">desktop_mac</i>
-                <p>
-                    &ltmyBlog&gt
-                </p>
+                <img src="/assets/logo.png" alt="desktop">
             </span>
-            <nav class="navbar"><a href="">Accueil</a></nav>
-            <nav class="navbar"><a href="">Cours</a></nav>
-            <nav class="navbar"><a href="">Blog</a></nav>
-            <nav class="navbar"><a href="">Newsletter</a></nav>
+            <nav class="navbar">
+                <li><a href="">Accueil</a></li>
+                <li><a href="">Cours</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Newsletter</a></li>
+            </nav>
         </header>
-        <section>
+        <section id="intro">
             <div class="content">
-                <span id="desktop" >
-                    <i class="material-icons" id="icon-2">desktop_mac</i>
-                
+                <span id="desktop">
+                    <img src="/assets/logo.png" alt="desktop">
                 </span>
-                <h1>
-                    &ltmyBlog&gt
-                </h1>
-                <h2>
-                    La plateforme d'apprentissage du code.
-                </h2>
-                <h3>
-                    Apprenez la programmation et le métier de dev grâce à nos cours et nos ressources
-                </h3>
-                <p></p>
-                <button>
-                    Decouvrez nos cours
-                </button>
+                <div class="cTa">
+                    <h2 class="title">
+                        La plateforme d'apprentissage du code.
+                    </h2>
+                    <p>
+                        Apprenez la programmation et le métier de dev <br> grâce à nos cours et nos ressources
+                    </p>
+                    <button class="title" >
+                        Découvrez nos cours
+                    </button>
+                </div>
+                <span class="arrow">
+                    <img src="/assets/down-arrow.png" alt="arrow">
+                </span>
             </div>
         </section>
-    </div>
+        <!-- <div class="chat">
+            <img src="/assets/chat.png" alt="chat-icon">
+        </div> -->
+        <section id="middle" >
+            <div class="center">
+                <h1>Apprendre,découvrir,experimenter.</h1>
+                    <div class="span">
+                        <div class="test">
+                            <h6>Terminal</h6>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                                <div class="description">
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus repudiandae quis iusto, eveniet magni libero dolore accusamus consequatur est, impedit explicabo deleniti exercitationem illum quidem eligendi nostrum distinctio maiores facilis esse possimus, sint id adipisci omnis? Officiis maiores architecto dolore sunt qui. <br><br> Culpa omnis consequuntur incidunt ad aliquam vitae, voluptatibus quibusdam quidem inventore sint libero porro, aspernatur quam quisquam distinctio vel officiis iure, animi similique minima! Quos voluptas qui harum illo quisquam, commodi obcaecati assumenda eligendi laudantium accusantium nesciunt itaque deserunt nulla reiciendis quibusdam aliquid dolor. Voluptatum expedita quidem, commodi delectus cum in unde magnam ipsum dicta aspernatur perferendis recusandae.</p>
+                                </div>
+                            </div>
+                    </div>
+            </div>
+        </section>
+        <section id="main">
+
+        </section>
+        
+        <section id="footer">
+
+        </section>
 </body>
 </html>
