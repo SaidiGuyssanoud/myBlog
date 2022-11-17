@@ -105,23 +105,60 @@ button {
     text-align: center;
 }
 
-
-
-.test{
-    width: 30%;
-    background-color: gray;
-    /* margin-top: 3rem; */
-}
-
 .span{
     display: flex;
     justify-content: center;
 }
 
-.description{
-    background-color:black;
-   
+.test{
+    width: 30%;
+    background-color: rgb(62, 62, 62);
+    border-radius: 12px;
 }
 
-.test h6 {
+.description{
+    background-color:black;
+    /* margin-bottom: 3rem; */
+}
+
+.terminal {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: .5rem;
+    margin: .5rem;
+}
+
+.terminal-name {
+    margin-right: auto;
+    font-size: .8rem;
+}
+
+.terminal span {
+    width: 12px;
+    height: 12px;
+    background-color:white;
+    border-radius:100%;
+}
+
+#main{
+    width: 100%;
+    height: 600px;
+    background-color:white;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+#blog{
+    width: 100%;
+    height: 600px;
+    background-image: url(../assets/background-blue.png);
+    background-repeat: repeat;
+}
+
+#footer{
+    width: 100%;
+    height: 600px;
+    background-color: black;
 }
