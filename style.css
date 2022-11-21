@@ -147,9 +147,8 @@ header {
 #main legend{
     background-color: red;
     border-radius: 15px;
-    width: 70px;
     padding: 5px;
-    text-align: center;
+    text-align: left;
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -178,7 +177,7 @@ header {
     box-sizing: border-box;
     border: 1px solid gray;
     width: 300px;
-    box-shadow: 2px 2px 2px 2px gray;
+    box-shadow: 0px 2px 2px 2px gray;
 }
 
 .main-button{
@@ -187,7 +186,12 @@ header {
     justify-content: center;
 }
 
-.main
+.git img {
+    width: 64px;
+}
+
+.second legend {
+}
 
 .button-cours{
     background-color: rgb(61, 66, 66);
